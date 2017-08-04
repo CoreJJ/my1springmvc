@@ -13,10 +13,6 @@ import cn.itcast.ssm.po.Items;
  * 
  * <p>Title: ItemsController1</p>
  * <p>Description:注解开发Handler </p>
- * <p>Company: www.itcast.com</p> 
- * @author	传智.燕青
- * @date	2015-4-13上午10:46:17
- * @version 1.0
  */
 //使用Controller标识 它是一个控制器
 @Controller

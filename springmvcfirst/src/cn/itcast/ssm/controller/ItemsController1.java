@@ -15,10 +15,6 @@ import cn.itcast.ssm.po.Items;
  * 
  * <p>Title: ItemsController1</p>
  * <p>Description:实现controller接口的 处理器 </p>
- * <p>Company: www.itcast.com</p> 
- * @author	传智.燕青
- * @date	2015-4-13上午10:46:17
- * @version 1.0
  */
 public class ItemsController1 implements Controller {
 

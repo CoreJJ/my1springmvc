@@ -17,10 +17,6 @@ import cn.itcast.ssm.po.Items;
  * 
  * <p>Title: ItemsController1</p>
  * <p>Description:实现HttpRequestHandler接口的 处理器 </p>
- * <p>Company: www.itcast.com</p> 
- * @author	传智.燕青
- * @date	2015-4-13上午10:46:17
- * @version 1.0
  */
 public class ItemsController2 implements HttpRequestHandler {
 
@@ -49,12 +45,6 @@ public class ItemsController2 implements HttpRequestHandler {
 		//设置转发的视图
 		request.getRequestDispatcher("/WEB-INF/jsp/items/itemsList.jsp").forward(request, response);
 		
-		//使用此方法可以通过修改response，设置响应的数据格式，比如响应json数据
-
-/*
-		response.setCharacterEncoding("utf-8");
-		response.setContentType("application/json;charset=utf-8");
-		response.getWriter().write("json串");*/
 
 		
 	}
