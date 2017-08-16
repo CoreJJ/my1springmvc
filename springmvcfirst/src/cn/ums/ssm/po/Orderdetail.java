@@ -1,4 +1,4 @@
-package cn.itcast.ssm.po;
+package cn.ums.ssm.po;
 
 public class Orderdetail {
     private Integer id;

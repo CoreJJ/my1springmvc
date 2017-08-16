@@ -1,4 +1,4 @@
-package cn.itcast.ssm.controller;
+package cn.ums.ssm.controller;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -11,13 +11,9 @@ import javax.servlet.http.HttpServletResponse;
 import org.springframework.web.HttpRequestHandler;
 import org.springframework.web.servlet.ModelAndView;
 
-import cn.itcast.ssm.po.Items;
+import cn.ums.ssm.po.Items;
 
-/**
- * 
- * <p>Title: ItemsController1</p>
- * <p>Description:实现HttpRequestHandler接口的 处理器 </p>
- */
+
 public class ItemsController2 implements HttpRequestHandler {
 
 	@Override
@@ -36,7 +32,7 @@ public class ItemsController2 implements HttpRequestHandler {
 		Items items_2 = new Items();
 		items_2.setName("苹果手机");
 		items_2.setPrice(5000f);
-		items_2.setDetail("iphone6苹果手机！");
+		items_2.setDetail("iphone7苹果手机！");
 		
 		itemsList.add(items_1);
 		itemsList.add(items_2);
