@@ -10,7 +10,6 @@ import org.springframework.web.servlet.ModelAndView;
 import cn.ums.ssm.po.Items;
 
 
-//使用Controller标识 它是一个控制器
 @Controller
 public class ItemsController3 {
 	
